@@ -29,10 +29,14 @@ The following animation demonstrates the application functionality:
 
 ## Links
 
+[GitHubLink](https://github.com/datfoosteve/DayPlanner)
+
+[Deploy Link](https://datfoosteve.github.io/DayPlanner/)
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
 ## Contributions
 ```md
 Stephen Puthenpurackal
