@@ -3,7 +3,15 @@ body {
     font-size: 19px;
     line-height: .9;
   }
-  
+.legend{ padding-left: 125px; padding-top: 50px;}
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 40px; height: 40px; margin: 10px; }
+.legend .past { background-color: #d3d3d3a1; }
+.legend .present { background-color: #ff69619d; }
+.legend .future { background-color: #77dd77c5; }
+
+
   textarea {
     background: transparent;
     border: none;
