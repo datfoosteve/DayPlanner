@@ -1,6 +1,7 @@
 const currHour = moment().hour();
 
 function clickHandler() {
+// input is hooked by val() function
   const input = $(this).parent().siblings("textarea").val();
   const hour = $(this).parent().siblings("textarea").attr("id");
 
@@ -8,13 +9,19 @@ function clickHandler() {
 }
 
 $(".time-block").each(function () {
+    //Grabbing the Id Attribute using the DOM selector
   const blockTime = $(this).attr("id");
+  // Trying to somehow get the Text Area Dataset-* by using Query Selector
   const block = document.querySelector("textarea");
-  const blockAMPM = block.dataset.time;
+  // Variable i have stored is suppose to be either Am or PM but its not working
+  const blockAMPM = block.dataset.time; 
 
-  console.log();
-  
-  
+  // this was suppose to decide if whether the textarea was in the AM or PM 
+  // and then do an DOM-addclass to change the background of the text area,
+  // depending if curr time(using moment) is either less or greater then time listed
+  // in the block itself, but for some reason BlockAMPM only stores AM, i cannot figure out
+  // why there is no PM, since moment().hour() stores in military time. O well. i just kept
+  // increasing the div id
   if(blockAMPM == 'am') {
     if (blockTime < currHour) {
       $(this).addClass("past");
@@ -25,7 +32,6 @@ $(".time-block").each(function () {
     }
   } 
   else if(blockAMPM == 'pm') {
-    console.log(blockAMPM);
     if ((blockTime+12) < (currHour)) {
       $(this).addClass("past");
     } else if ((blockTime+12) == currHour) {
@@ -35,6 +41,8 @@ $(".time-block").each(function () {
       }
   }
   else{
+      // it isnt ever suppose to reach here...
+      // but i didnt know javascript was a vampire
       console.log("wtf");
   }
 });

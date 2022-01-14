@@ -29,6 +29,11 @@ body {
     text-align: center;
     border-radius: 15px;
     align-content: space-between;
+    /* vertical-align: text-bottom; */
+  }
+  div.col-1.hour{
+    vertical-align: middle;
+    padding-top: 30px;
   }
   .row {
     white-space: pre-line;
