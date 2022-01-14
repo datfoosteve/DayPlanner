@@ -34,9 +34,10 @@ The following animation demonstrates the application functionality:
 
 [MIT](https://choosealicense.com/licenses/mit/)
 ## Contributions
+```md
 Stephen Puthenpurackal
 Eric Sayer(tutor);
-
+```
 ## Project-Status
 ```md
 Status-Ongoing
