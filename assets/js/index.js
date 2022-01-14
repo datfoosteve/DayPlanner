@@ -1,10 +1,10 @@
 const currHour = moment().hour();
-
+// using moment to start the current time of the user in military time
 function clickHandler() {
 // input is hooked by val() function
   const input = $(this).parent().siblings("textarea").val();
   const hour = $(this).parent().siblings("textarea").attr("id");
-
+    // this stores the input 
   localStorage.setItem(hour, input);
 }
 
@@ -46,7 +46,8 @@ $(".time-block").each(function () {
       console.log("wtf");
   }
 });
-$("button").click(clickHandler);
+
+// this is for the click handler
 $("#hour-1").val(localStorage.getItem("hour-1"));
 $("#hour-2").val(localStorage.getItem("hour-2"));
 $("#hour-3").val(localStorage.getItem("hour-3"));
@@ -71,3 +72,4 @@ $("#hour-21").val(localStorage.getItem("hour-21"));
 $("#hour-22").val(localStorage.getItem("hour-22"));
 $("#hour-23").val(localStorage.getItem("hour-23"));
 $("#hour-24").val(localStorage.getItem("hour-24"));
+$("button").click(clickHandler);
