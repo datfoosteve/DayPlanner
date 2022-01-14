@@ -21,6 +21,10 @@ body {
     padding: 12px;
   }
 
+  .placeholder{
+    text;
+  }
+
   .jumbotron {
     text-align: center;
     background-color: transparent;
@@ -71,9 +75,9 @@ body {
   }
   
   .saveBtn {
-    /* border-left: 1px solid black; */
-    /* border-top-right-radius: 15px; */
-    /* border-bottom-right-radius: 15px; */
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: #4b33d1;
     color: rgb(208, 255, 0);
     display:inline-block;
