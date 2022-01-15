@@ -25,13 +25,13 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./assets/images/example.gif)
 
 ## Links
 
-[GitHubLink](https://github.com/datfoosteve/DayPlanner)
+[GitHubLink](https://datfoosteve.github.io/DayPlannerScheduler/)
 
-[Deploy Link](https://datfoosteve.github.io/DayPlanner/)
+[Deploy Link](https://github.com/datfoosteve/DayPlannerScheduler)
 
 ## License
 
