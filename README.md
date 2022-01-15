@@ -32,9 +32,9 @@ The following animation demonstrates the application functionality:
 
 ## Links
 
-[GitHubLink](https://datfoosteve.github.io/DayPlannerScheduler/)
+[Deploy Link](https://datfoosteve.github.io/DayPlannerScheduler/)
 
-[Deploy Link](https://github.com/datfoosteve/DayPlannerScheduler)
+[GitHub Link](https://github.com/datfoosteve/DayPlannerScheduler)
 
 ## License
 
