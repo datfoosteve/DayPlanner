@@ -27,6 +27,9 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./assets/images/example.gif)
 
+
+![A user types input on the color-coded calendar and saves the event.](https://i.imgur.com/SWSvkDO.gif)
+
 ## Links
 
 [GitHubLink](https://datfoosteve.github.io/DayPlannerScheduler/)
